@@ -1,5 +1,4 @@
-const products = [];
-products.push(
+const products = [
   {
     id: "523a1ea1-bea3-41e3-8ac5-a2556f7118d0",
     name: "Produto 1",
@@ -15,6 +14,6 @@ products.push(
     price: 200,
     description: "Descrição do Produto 2",
     image: "https://via.placeholder.com/150",
-  }
-);
+  },
+];
 export default products;
