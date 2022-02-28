@@ -1,0 +1,33 @@
+{
+  "name": "api-base",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon  ./src/server.mjs",
+    "start": "node ./src/server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kakaroto1500/base-express-mjs.git"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kakaroto1500/base-express-mjs/issues"
+  },
+  "homepage": "https://github.com/kakaroto1500/base-express-mjs#readme",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "axios": "^0.26.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "uuid": "^8.3.2",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
